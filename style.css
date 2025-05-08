@@ -1,0 +1,64 @@
+/* Global Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  direction: rtl;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #f0f0f0;
+  color: #333;
+  text-align: center;
+}
+
+/* Header Styling */
+header {
+  background-color: #008080;
+  color: white;
+  padding: 20px;
+}
+
+/* Navigation Links Styling */
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+/* Section Styling */
+section {
+  padding: 20px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 8px;
+}
+
+/* Footer Styling */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Gallery Thumbnails */
+.gallery img,
+.thumbnail {
+  width: 150px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: transform 0.2s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+}
+
+/* Lightbox2 Overrides (if needed) */
+.lightboxOverlay {
+  background: rgba(0, 0, 0, 0.8) !important;
+}
+
+.lightbox {
+  border-radius: 10px;
+}
